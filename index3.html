@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Главная страница</title>
+</head>
+
+<body>
+
+   <body background="./images/search2.jpg">
+      <h1>Поиск автомобиля на сайте:</h1>
+      <h2>Что вы ищите:</h2>
+      <p>Тип кузова:</p>
+      <form action=" https://fom.in.ua/echo ">
+         <input type="radio" name="car" id="small" value="1">
+         <label for="small">Легковые:</label>
+         <input type="radio" name="car" id="big" value="2">
+         <label for="big">Грузовые,пикапы:</label>
+         <input type="radio" name="car" id="moto" value="3">
+         <label for="moto">Мото:</label>
+         <p>Марка авто:</p>
+         <input type="checkbox" name="Audi" id="ad" value="ad">
+         <label for="ad">Audi</label>
+         <input type="checkbox" name="BMW" id="bw">
+         <label for="bw">BMW</label>
+         <input type="checkbox" name="Chevrolet" id="ch" value="ch">
+         <label for="ch">Chevrolet</label>
+         <input type="checkbox" name="Ford" id="fo" value="fo">
+         <label for="fo">Ford</label>
+         <input type="checkbox" name="Honda" id="ho" value="ho">
+         <label for="ho">Honda</label>
+         <input type="checkbox" name="Toyota" id="to" value="to">
+         <label for="to">Toyota</label>
+         <input type="checkbox" name="Mercedes" id="me" value="me">
+         <label for="me">Mercedes</label>
+         <input type="checkbox" name="Nissan" id="ni" value="ni">
+         <label for="ni">Nissan</label>
+         <input type="checkbox" name="Opel" id="op" value="op">
+         <label for="op">Opel</label>
+         <input type="checkbox" name="Volksvagen" id="vo" value="vo">
+         <label for="vo">Volksvagen</label>
+         <p>Страна производитель:</p>
+         <input type="checkbox" name="Germany" id="ge">
+         <label for="ge">Германия</label>
+         <input type="checkbox" name="USA" id="us">
+         <label for="us">Америка</label>
+         <input type="checkbox" name="Japan" id="ja">
+         <label for="ja">Япония</label>
+         <p>Укажите цену:</p>
+         <input type="radio" name="valuta" id="do" value="$">
+         <label for="do">Доллар</label>
+         <input type="radio" name="valuta" id="gr" value="grn">
+         <label for="gr">Гривна</label>
+         <p>от:</p>
+         <p><input type="range" min="500" max="200000" name="price" id="pr"></p>
+         <p>до:</p>
+         <p><input type="range" min="500" max="200000" name="price" id="pr"></p>
+         <p>Год выпуска:</p>
+         <p>от</p>
+         <input type="date" name="year" id="ye">
+         <p>до:</p>
+         <input type="date" name="year" id="ye">
+         <p>Состояние:</p>
+         <input type="checkbox" name="After" id="aft">
+         <label for="aft">Б/У</label>
+         <input type="checkbox" name="New" id="new">
+         <label for="new">Новая</label>
+         <input type="checkbox" name="Crash" id="crh">
+         <label for="crh">После дтп/с повреждениями</label>
+         <input type="checkbox" name="dcrash" id="dcrh">
+         <label for="dcrh">без повреждений</label>
+         <input type="checkbox" name="rast" id="rst">
+         <label for="rst">Растаможеная</label>
+         <input type="checkbox" name="nerast" id="nrst">
+         <label for="nrst">Не растаможеная</label>
+         <p>Вид топлива:</p>
+         <input type="checkbox" name="petrol" id="pet">
+         <label for="pet">Бензин</label>
+         <input type="checkbox" name="diesel" id="dt">
+         <label for="dt">Дизель</label>
+         <input type="checkbox" name="gas" id="gs">
+         <label for="gs">Газ</label>
+         <input type="checkbox" name="hybrid" id="hybr">
+         <label for="hybr">Гибрид</label>
+         <input type="checkbox" name="electric" id="elc">
+         <label for="elc">Електрика</label>
+         <p>Тип коробки передач:</p>
+         <input type="checkbox" name="automat" id="att">
+         <label for="att">Автомат</label>
+         <input type="checkbox" name="mehanika" id="meh">
+         <label for="meh">Механика</label>
+         <p>Выберите цвет:</p>
+         <p>Палитра</p>
+         <input type="color" name="color1" id="col1">
+         <label for="col1">Цвет</label>
+         <p>Или название цвета</p>
+         <input type="checkbox" name="red" id="rd1">
+         <label for="rd1">Красный</label>
+         <input type="checkbox" name="black" id="blk">
+         <label for="blk">Чёрный</label>
+         <input type="checkbox" name="white" id="wht">
+         <label for="wht">Белый</label>
+         <input type="checkbox" name="blue" id="blu">
+         <label for="blu">Синий</label>
+         <input type="checkbox" name="green" id="gren">
+         <label for="gren">Зеленый</label>
+         <input type="checkbox" name="yellow" id="ylw">
+         <label for="ylw">Желтый</label>
+         <p>Комфорт:</p>
+         <input type="checkbox" name="condition" id="cond">
+         <label for="cond">Кондиционер</label>
+         <input type="checkbox" name="Luk" id="luk">
+         <label for="luk">Люк</label>
+         <input type="checkbox" name="KoshSalon" id="kosal">
+         <label for="kosal">Кожаный салон</label>
+         <input type="checkbox" name="klimats" id="klims">
+         <label for="klims">Климатическая система</label>
+         <input type="checkbox" name="multirul" id="mltr">
+         <label for="mltr">Мультируль</label>
+         <input type="checkbox" name="elregsid" id="ers">
+         <label for="ers">Електрическая регулировка сидений</label>
+         <input type="checkbox" name="ESP" id="esp">
+         <label for="esp">ESP</label>
+         <input type="checkbox" name="signalka" id="sglk">
+         <label for="sglk">Сигнализация</label>
+         <input type="submit" value="Найти">
+         <p><a href="index.html">Страница авторизации</a></p>
+         <p><a href="index2.html">Страница регистрации</a></p>
+      </form>
+   </body>
+
+</html>
